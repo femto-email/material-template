@@ -2,6 +2,9 @@
 @import "bower_components/materialize/sass/materialize.scss";
 // endbower
 
+$femto-yellow: rgb(255, 255, 141);
+$femto-teal: rgb(0, 150, 136);
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -9,13 +12,19 @@
   padding: 0.2em 0;
 }
 
+.caps{
+  text-transform: capitalize;
+}
+
 .full{
   height: 100vh;
   width: 100vw;
   max-width:100%;
+  background-color:#FFF;
+  color: $femto-teal;
 
   .title{
-    font-size: 20vw;
+    font-size: 15vw;
     line-height: 0.8;
   }
 
